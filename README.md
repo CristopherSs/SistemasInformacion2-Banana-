@@ -1,1 +1,2 @@
-# Sistemasinformacion2Banana-
+----------------Sprint Cero--------------------
+especificaciones
