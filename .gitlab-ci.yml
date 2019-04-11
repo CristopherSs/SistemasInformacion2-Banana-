@@ -16,7 +16,7 @@ runTest:
     # - pip install pyqt5
     
     - python -m unittest test/*.py
-    
+    - pylint Banana/
     #- coverage run --source=Rooms --omit="*/ui*" -m unittest test/*.py
     
     - coverage report --fail-under 80
