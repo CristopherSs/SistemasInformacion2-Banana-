@@ -23,7 +23,9 @@ especificaciones:
     2.-El  codigo y documentacion debera estar en espaniol
     3.-Colocar nombre de variables explicitas no por ejm:
             self.a = 1 <-No colocar a ni b etc. que sea especifico.
-           
-  
+    4.-Crear ramas para cada tipo de trabajo
+    5.-los pull request en git se asignaran al scrum master 
+        en este caso (CristopherSs)          
+ 
 
 
