@@ -29,7 +29,7 @@ especificaciones:
     6.-los nombres de las ramas de trabajo deberan ser por ejm:
         desarrollo/IU
         desarrollo/BD
-        desarrollo/backend
+        desarrollo/backend 
     de ahi ya se pueden dividir a su gusto       
     suerte!!!! :v
 
