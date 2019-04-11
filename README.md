@@ -25,7 +25,12 @@ especificaciones:
             self.a = 1 <-No colocar a ni b etc. que sea especifico.
     4.-Crear ramas para cada tipo de trabajo
     5.-los pull request en git se asignaran al scrum master 
-        en este caso (CristopherSs)          
+        en este caso (CristopherSs)     
+    6.-los nombres de las ramas de trabajo deberan ser por ejm:
+        desarrollo/IU
+        desarrollo/BD
+        desarrollo/backend
+    de ahi ya se pueden dividir a su gusto       
     suerte!!!! :v
 
 
