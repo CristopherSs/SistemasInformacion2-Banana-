@@ -26,6 +26,6 @@ especificaciones:
     4.-Crear ramas para cada tipo de trabajo
     5.-los pull request en git se asignaran al scrum master 
         en este caso (CristopherSs)          
- 
+    suerte!!!! :v
 
 
