@@ -30,6 +30,13 @@ class Usuario:
         """
         return copy(self.__contrasenia)
 
+    def obtener_apodo(self) -> str:
+        """
+        devuelde una copia del apodo
+        :return: self.__apodo
+        """
+        return copy(self.__apodo_id)
+
     def actualizar_nombre(self, nombre: str, apellidos: str) -> None:
         """
             se actualizara la variable self.__nombre_completo
