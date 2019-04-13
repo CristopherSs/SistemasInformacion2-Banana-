@@ -11,7 +11,7 @@ class Docente(Usuario):
         que tendra un usuario de tipo docente
     """
 
-    def __init__(self, nombre: str, contrasenia: str) -> None:
-        Usuario.__init__(self, nombre, contrasenia)
+    def __init__(self, nombre: str, apellido: str, email: str, contrasenia: str) -> None:
+        Usuario.__init__(self, nombres=nombre, apellidos=apellido, email=email, contrasenia=contrasenia)
 
 
