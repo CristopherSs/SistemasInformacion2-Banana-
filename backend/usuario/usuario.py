@@ -90,7 +90,7 @@ class Usuario:
         """
         nombre = nombre + ' '
         apellido = apellido + ' '
-        return nombre[0:nombre.find(' ') - 1] + apellido[0:apellido.find(' ') - 1]
+        return nombre[0:nombre.find(' ')] + apellido[0:apellido.find(' ')]
 
     def __acoplar_nombre(self, nombre: str, apellido: str) -> str:
         """
