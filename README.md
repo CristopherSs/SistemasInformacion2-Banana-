@@ -1,6 +1,6 @@
 ----------------Sprint Cero--------------------
 especificaciones
-<<<<<<< HEAD
-Jason Choque Canavitri/
+ason Choque Canavitri/
 Cristhian Mercado Cespedes/
 Jose Maria Aguilar Chambi/
+J
