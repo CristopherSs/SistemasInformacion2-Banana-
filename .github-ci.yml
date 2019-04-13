@@ -1,0 +1,24 @@
+image: python:3.7.1-slim
+
+
+stages:
+
+- test
+
+
+runTest:
+  
+  stage: test
+
+  script:
+
+    - pip install coverage pylint 
+    # - pip install pyqt5
+    
+    - python -m unittest test/*.py
+    - pylint Banana/
+    #- coverage run --source=Rooms --omit="*/ui*" -m unittest test/*.py
+    
+    - coverage report --fail-under 80
+    
+    
