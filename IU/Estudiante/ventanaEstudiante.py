@@ -1,9 +1,9 @@
 import sys
-from PyQt5 import QtWidgets,QtCore, Qt
+from PyQt5 import QtWidgets,QtCore
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import QApplication
 
-from IU.CrearCurso.VentanaCrearCurso import CrearCurso
+from IU.Inscricion.ventanaFormularioDeInscripcion import codigoInscripcion
 
 class MainWindow:
     def __init__(self):
@@ -15,7 +15,7 @@ class MainWindow:
         # self.nextWindow=MainWindow()
 
 
-        self.window.setWindowTitle("DOCENTE")
+        self.window.setWindowTitle("ESTUDIANTE")
         self.window.setGeometry(500,500,600,600)
         self.window.setVisible(True)
 
@@ -26,16 +26,16 @@ class MainWindow:
 
         # crear crear curso button
         self.creacurso = QtWidgets.QPushButton(self.window)
-        self.creacurso.setText("CREAR CURSO")
+        self.creacurso.setText("INSCRIBIRSE")
         self.creacurso.setGeometry(25, 510, 250, 40)
-        self.creacurso.clicked.connect(self.event_crearcurso)
+        self.creacurso.clicked.connect(self.event_inscribirse)
 
-    def event_crearcurso(self):
-
-
+    def event_inscribirse(self):
 
 
-        self.nextWindow = CrearCurso()
+
+
+        self.nextWindow = codigoInscripcion()
         self.window.setVisible(False)
         self.nextWindow.window.setVisible(True)
 

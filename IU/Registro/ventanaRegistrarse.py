@@ -3,7 +3,7 @@ from PyQt5 import QtWidgets, QtGui, QtCore, Qt
 
 
 
-class MainWindow:
+class registrarse:
     def __init__(self):
         self.app = QtWidgets.QApplication(sys.argv)
         self.window = QtWidgets.QMainWindow()
@@ -13,15 +13,16 @@ class MainWindow:
 
         self.window.setWindowTitle("REGISTRARSE")
         self.window.setGeometry(500,100,300,600)
+        self.window.setVisible(True)
         self.window.show()
-        sys.exit(self.app.exec_())
+
 
     def initGUI(self):
 
     #crear nick field
-        self.nick = QtWidgets.QTextEdit(self.window)
-        self.nick.setGeometry(25,90,250,40)
-        self.nick.setText("nick")
+       # self.nick = QtWidgets.QTextEdit(self.window)
+       # self.nick.setGeometry(25,90,250,40)
+       # self.nick.setText("nick")
 
     # crear nombres field
         self.nombre = QtWidgets.QTextEdit(self.window)
@@ -47,4 +48,3 @@ class MainWindow:
         self.registrarse = QtWidgets.QPushButton(self.window)
         self.registrarse.setText("resgistrarse")
         self.registrarse.setGeometry(25, 510, 250,40)
-main = MainWindow()

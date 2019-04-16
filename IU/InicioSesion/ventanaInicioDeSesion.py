@@ -3,7 +3,7 @@ from PyQt5 import QtWidgets, QtGui, QtCore, Qt
 
 
 
-class MainWindow:
+class IniciarSesion(QtWidgets.QMainWindow):
     def __init__(self):
         self.app = QtWidgets.QApplication(sys.argv)
         self.window = QtWidgets.QMainWindow()
@@ -13,8 +13,11 @@ class MainWindow:
 
         self.window.setWindowTitle("INICIAR SESION")
         self.window.setGeometry(500,100,300,300)
+        self.window.setVisible(True)
         self.window.show()
-        sys.exit(self.app.exec_())
+
+        # sys.exit(self.app.exec_())
+        # self.app.exec_()
 
     def initGUI(self):
 
@@ -35,4 +38,4 @@ class MainWindow:
         self.iniciarSesion.setGeometry(25,210, 250, 40)
 
 
-main = MainWindow()
+# am= IniciarSesion()
