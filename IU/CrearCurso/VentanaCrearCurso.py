@@ -3,7 +3,7 @@ from PyQt5 import QtWidgets, QtGui, QtCore, Qt
 
 
 
-class MainWindow:
+class CrearCurso:
     def __init__(self):
         self.app = QtWidgets.QApplication(sys.argv)
         self.window = QtWidgets.QMainWindow()
@@ -13,8 +13,9 @@ class MainWindow:
 
         self.window.setWindowTitle("FORMULARIO DE INSCRIPCION")
         self.window.setGeometry(500,100,300,300)
+        self.window.setVisible(True)
         self.window.show()
-        sys.exit(self.app.exec_())
+
 
     def initGUI(self):
 
@@ -27,4 +28,4 @@ class MainWindow:
         self.codigo = QtWidgets.QPushButton(self.window)
         self.codigo.setText("Generar Codigo Identificador")
         self.codigo.setGeometry(25,210, 250, 40)
-main = MainWindow()
+#main = MainWindow()
